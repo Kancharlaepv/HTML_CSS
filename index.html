@@ -1,0 +1,328 @@
+<html>
+    <title>Raghu Engineering College </title>
+    <style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        color: #242121;
+        background-color:#f4f6f9;
+    }
+   
+    .header {
+    display: flex; 
+    align-items: center; 
+    background-color: rgb(164, 54, 11); 
+    padding: 10px; 
+    
+}
+
+.header-content {
+    display: flex; 
+    align-items: center; 
+    gap: 450px;
+}
+
+.varshu {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+.header-text {
+    color: white;
+    justify-content: center; 
+}
+
+.header-text h1 {
+    margin: 0px; 
+    font-size: 24px; 
+}
+
+.header-text p {
+    margin: 0;
+    font-size: 16px; 
+}
+nav{
+        background-color: grey;
+        text-align:center;
+        padding:10px ;
+    }
+nav a{
+        color: #f4f6f9;
+        margin: 0 20px;
+        font-weight: bold;
+        text-decoration: none;
+    }       
+        nav a:hover {
+            color: #ff6347;
+            text-decoration: underline;
+        }
+section {
+                padding: 25px;
+                margin: 20px auto;
+                max-width: 1000px;
+                background-color: #867b7b;
+                border-radius: 20px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                transition: box-shadow 0.3s ease; 
+    }
+img{
+        height: 150px;
+        width:250px;
+        border-radius: 20px;
+        object-fit: cover;
+        
+    }
+.ss{
+        height: 250px;
+        margin: 5px;
+        width:200px;
+        background-color: #324345;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease; 
+        display: inline-block;
+        flex: 1 1 calc(33.33% - 20px);
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box; /* Includes padding in the width/height calculation */
+        border: 1px solid #ddd
+        
+    }
+.var{
+         display: flex;
+         flex-wrap: wrap; /* Allows wrapping to the next row */
+         justify-content: space-between; /* Adds space between boxes */
+         gap: 2px; /* Optional: Adds spacing between boxes */
+  
+        }
+table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+table th {
+            background-color: #f1f1f1;
+            font-weight: 800px;
+            color: #333;
+            
+        }
+    form {
+            max-width: 650px;
+            margin: 25px auto;
+        }
+    form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        form input,
+        form textarea,
+    form button {
+            width: 100%;
+            padding: 14px;
+            margin-bottom: 18px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+    form textarea:focus {
+            border-color: #007bff;
+            outline: none;
+            
+        }
+    form button {
+            background-color: #007bff;
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+    form button:hover {
+            background-color: #0056b3;
+        }
+    form button:active {
+            background-color: #004085;
+        }
+    .varshu{
+            width: 150px; /* Adjust width */
+            height: 150px;
+            align-items: 'left';
+            border-radius: 50%;
+            display: flex; 
+            justify-content:left;
+           }
+    .back{
+        background-color: #f1f1f1;
+        background-size: auto;
+        margin-top: 0px;
+    }
+
+   
+    </style> 
+    <body>  
+        
+        <header class="header">
+            <div class="header-content">
+                <img class="varshu" src="Raghu logo.jpeg" alt="Raghu Engineering College Logo">
+                <div class="header-text">
+                    <h1>Raghu Engineering College</h1>
+                    <p>Autonomous College (College code: RAGU)</p>
+                    <p> Visakhapatnam, Andhra Pradesh 531162</p>
+                </div>
+            </div>
+        </header>
+        <div class="back">
+        <nav>       
+            <a href="#about">About</a> |
+            <a href="#lib">Library</a> |
+            <a href="#events">Events</a> |
+            <a href="#faculties">Faculties</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+        <section id="about">
+            <h2 style="text-align: center;">Who we are?</h2>
+            <p>We are the finest multi-disciplinary Engineering College in Andhra Pradesh,
+                committed to delivering world-class education and research.</p>
+                <h1 style="text-align: center;">Vision</h1>
+                <p>Envisioning to be a world class technical institution
+                     by synergizing quality education with ethical values.</p>
+                <h1 style="text-align: center;">Mission</h1>
+                <p><ul><li>To encourage training and research in cutting-edge technologies.</li>
+                    <li>To develop and strengthen strategic links with the industry.</li>
+                <li> To kindle the zeal among the students and promote their quest for academic excellence.</li>
+            <li> To encourage extra-curricular activities along with good communication skills.</li></ul></p>
+        </section>
+       
+        <section id="lib">
+            <h2>Library</h2>
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+                
+                <!-- Text on the left -->
+                <div  style="flex: 1; padding-right: 20px;overflow: auto;">
+                    <p>The Raghu Engineering college library caters to the needs of more than 8000 UG, PG students and
+                        research scholars apart from about 400 teaching faculty. Presently the library is in a total 
+                        covered area of about 1854 sq.m. having two air conditioned reading rooms with a capacity of 
+                        450 persons. There is also an Electronic Periodical Section through which 60 users can access 
+                        online journals at a time. Beside this, they can also access from their Laptops, laboratories 
+                        and departmental libraries. Apart from the main college library, the college has departmental 
+                        libraries in each of the nine departments of the College. Library learning resources comprised 
+                        textbooks, reference books, scientific and technical journals, and standards in terms of both 
+                        print and electronics.</p>
+        
+                    <p>The RFID security system and CCTV cameras are installed to ensure safety of the Library materials. 
+                        The College Library is also equipped with Fire Alarm, manually operated fire extinguishers.
+                        Over 500 students, teachers and other members visit the Library almost every day. 
+                        A register is maintained in the library and the visitor has to show his valid identity card at the entrance.</p> 
+                </div>  
+    
+                <div style="flex: 1; display: flex; justify-content: center; width: 80%; height: 50%;">
+                    <img src="Lib.jpg" alt="Library Image" style="width: 100%; height: auto; object-fit: cover;">
+                </div>
+        
+            </div>
+        </section>
+        
+        <section id="events">
+            <h2>Events</h2>
+            <div class="var">
+            <section  class="ss">
+                <img src="Event1.jpg"><br>
+                <p style="color: #f4f6f9;">Chakravyuh-2k25</p>
+        </section>
+        <section  class="ss">
+                <img src="Event2.jpg"><br>
+                <p style="color: #f4f6f9;">Debug wars-2k25</p>
+                
+        </section>
+        <section  class="ss">
+                <img src="Event3.jpg"><br>
+                <p style="color: #f4f6f9;">AI Revolution</p>
+        </section>
+        <section  class="ss">
+                <img src="Event4.jpg"><br>
+                <p style="color: #f4f6f9;">AI Tools Workshop-Unlocking the Power of Artificial Intelligence</p>
+        </section>
+        <section  class="ss">
+                <img src="Event5.jpg"><br>
+                <p style="color: #f4f6f9;">Developing Smart system with IOT by Mr.Y.S.N.Raju</p>
+        </section>
+        <section class="ss">
+                <img src="Event6.jpg"><br>
+                <p style="color: #f4f6f9;">CODE FRENZY The Ultimate Tech Game Show</p>
+        </section>
+    </div>
+        </section>
+        <section id="faculties">
+            <h2>Faculites</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Faculty Names</th>
+                        <th>Department</th>
+                        <th>Designation</th>
+                    </tr>
+                    <tr>
+                        <td> Dr. R Sivaranjani</td>
+                        <td>CSE</td>
+                        <td>Professor</td>
+                    </tr>
+                    <tr>
+                        <td> K Pavan Kumar</td>
+                        <td>CSE</td>
+                        <td>Associate Professor</td>
+                    </tr>
+                    <tr>
+                        <td> Dr.VVSSS Chakravarthy</td>
+                        <td>ECE</td>
+                        <td>Professor</td>
+                    </tr>
+                    <tr>
+                        <td> M Meena Kumari</td>
+                        <td>ECE</td>
+                        <td>Associate Professor</td>
+                    </tr>
+
+                    <tr>
+                        <td> Dr. M Kaladhar</td>
+                        <td>MECH</td>
+                        <td>Professor</td>
+                    </tr>
+                    <tr>
+                        <td> G. S. N. M. Venkatesh</td>
+                        <td>MECH</td>
+                        <td>Assistant Professor</td>
+                    </tr>
+                    <tr>
+                        <td>Ravi Kiran</td>
+                        <td>EEE</td>
+                        <td>Professor</td>
+                    </tr>
+                </thead>
+            </table>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br><br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </div>
+    </body>
+</html>
